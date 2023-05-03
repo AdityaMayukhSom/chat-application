@@ -1,19 +1,20 @@
 {
-  "name": "chat-application",
-  "version": "0.0.1",
-  "description": "sd ki maa ka bhosda",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm run test"
-  },
-  "author": "devstream",
-  "license": "MIT",
-  "dependencies": {
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.22",
-    "socket.io": "^4.6.1"
-  }
+	"name": "chat-application",
+	"version": "0.0.1",
+	"description": "sd ki maa ka bhosda",
+	"main": "index.js",
+	"scripts": {
+		"test": "npm run test",
+		"dev": "nodemon index.js"
+	},
+	"author": "devstream",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.20.2",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"nodemon": "^2.0.22",
+		"socket.io": "^4.6.1"
+	}
 }
